@@ -30,7 +30,7 @@ const SignIn = () => {
 
   return (
     <>
-      <h1 className="form-title">Log Into Your Account</h1>
+      <h1 className="form-title">Welcome Back!</h1>
 
       <form onSubmit={handleSubmit(onSubmit)} className="space-y-5">
 
@@ -58,7 +58,7 @@ const SignIn = () => {
           {isSubmitting ? 'Creating Account' : 'Log In'}
         </Button>
 
-        <FooterLink text="Don't have an account?" linkText="Sign Up" href="/sign-up" />
+        <FooterLink text="Don't have an account?" linkText="Create an account" href="/sign-up" />
       </form>
     </>
   )
